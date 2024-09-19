@@ -1,0 +1,429 @@
+@font-face{
+    font-family:UTMAvo;
+    src: url('assets/fonts/UTMAvo.eot'), format('eot'),
+         url('assets/fonts/UTMAvo.woff'), format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #FBF7FB;
+    color: #000;
+}
+*,body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bg-top-nav{
+    background-color:#A987A8;
+    width: 100%;
+}
+
+img.nav-logo{
+    width: 200px;
+    height:50px;
+    margin-top: -3px !important;
+}
+.custome-icon-list{
+    color: #000;
+}
+.custome-top-nav ul li a{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.custome-top-nav ul li{
+    margin-left: 10px;
+}
+.custome-top-nav ul li a:hover{
+    color:#FFF;
+    text-decoration: underline;
+}
+a.home{
+    color:#FFF !important;
+    text-decoration: underline !important;
+}
+/* //////////////////////
+End of navbar code
+///////////////////////// */
+div.custome-hero-message{
+    margin-top: 130px;
+    text-align: center;
+}
+.top-hero{
+    margin-top: 50px;
+}
+h2.hero-text{
+    width: 400px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 40px;
+}
+p.hero-msg{
+    width: 400px;
+    text-align: left;
+    margin-left: 40px;
+}
+button.custome-hero-btn{
+    padding: 13px;
+    width: 180px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #511F52;
+    border: 3px solid #511F52;
+}
+button.custome-hero-btn:hover{
+    color: #511F52;
+    background-color: #fff;
+    border: 3px solid #511F52;
+    cursor: pointer;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+.img-fari{
+    width: 400px;
+    border-radius: 50% !important;
+    box-shadow: 1px 1px 2px 2px #764877;
+}
+/* //////////////////////
+End of hero message code
+///////////////////////// */
+.title{
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.meni-title{
+    font-weight: bold;
+}
+.float-left-btn{
+    float: left;
+    margin-left: 45px;
+}
+.certificate, .projects{
+    text-align: center;
+    background-color: #ebeaea;  
+}
+.certificate:hover{
+    background-color: #fff4fe;
+    cursor: pointer;
+}
+.social-link{
+    font-size: 18px;
+    background-color: #511F52;
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 3px;
+    border: 1px solid #511F52;
+}
+.social-link:hover{
+    background-color: white;
+    color: #511F52;
+    cursor: pointer;
+
+}
+input.btn-custom{
+    color: #fff;
+    background-color: #511F52;
+    width: 200px;
+    font-weight: bold;
+    
+}
+input.btn-custom:hover{
+    color: #511F52;
+    background-color: #fff;
+    cursor: pointer;
+    border: 1px solid #511F52;
+    
+}
+.to-top{
+    background-color: #511F52;
+    position: fixed;
+    bottom: 26px;
+    right: 32px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s;
+}
+.to-top:hover{
+    color: #044738;
+}
+.to-top.active{
+    bottom: 50px;
+    pointer-events: auto;
+    opacity: 1;
+
+}
+.pro-btn{
+    width: 90% !important;
+}
+.my-skills{
+    background-color: #F5E1F4;
+    border: 1px solid #511F52;
+    box-shadow: 1px 1px 1px 1px #9f6ba0;
+}
+.title-skills{
+    font-family: lalezar;
+    text-shadow: 1px 1px 1px #010101;
+    color: #764877;
+}
+.skill-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+.skill-progress{
+   background-color: #511F52;
+    border-radius: 50%;
+    padding: 7px;
+    width: 80px;
+    height: 80px;
+}
+/* start of circular progress bar */
+.progress-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circular-progress {
+    width: 150px;
+    height: 150px;
+    background: conic-gradient(#511F52 0%, #ddd 0%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.circular-progress .progress-value {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.circular-progress::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #F5E1F4;
+    border-radius: 50%;
+}
+  /* end of circular progress bar */
+.my-progress{
+    background-color: #511F52;
+    height: auto;
+    
+    
+}
+.progress{
+    border: 1px solid #511F52 !important;
+    
+}
+.title-progress{
+    color: #511F52;
+    font-family: lalezar;
+    font-size: 26px;
+}
+.progress-cul{
+    padding: 3px;
+}
+.custome-progress{
+    margin-bottom: 70px;
+}
+.title-contact{
+    color: #511F52;
+    font-family: lalezar;
+    font-size: 20px;
+}
+.contact-list{
+    list-style: none;
+    margin-top: 100px;
+}
+.icone{
+    color: #511F52;
+    font-size: 20px;
+
+}
+.icone-text{
+    color: #511F52;
+    padding-left: 10px !important;
+}
+.contact-icone-title{
+    margin-top: 20px !important;
+    padding: 20px;
+}
+.footer{
+    background-color: #A987A8;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.line{
+    background-color: #fff;
+}
+.footer-box{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(252, 252, 252,0.3);
+    border: 1px solid #fff;
+}
+.footer-link{
+    color: #fff;
+    text-decoration: underline;
+}
+.footer-link:hover{
+    color: #511F52;
+}
+/* ////////////////////////////////////
+style code of page about-me
+////////////////////////////////////// */
+.img-about-page{
+    border-radius: 10px !important;
+    height: auto;
+    padding: 5px;
+}
+.float-left-about{
+    text-align: left;
+    margin-left: 20px;
+}
+.title-about{
+    font-size: 48px;
+    font-family: lalezar;
+}
+.about-projects{
+    text-align: center;
+    background-color: rgba(174, 114, 180, 0.3) !important;
+    border: 1px solid #511F52 !important;  
+    padding: 30px !important; 
+}
+.about-title{
+    font-size: 58px;
+    font-weight: bold;
+    
+}
+.line-separat{
+    border-right: 3px dotted #511F52;
+}
+.about-img{
+    width: 140px;
+}
+.about-paragraph{
+    width: 350px;
+}
+ /* ////////////////////////////////////
+ style code of page contact me
+//////////////////////////////////////*/
+.custome-form-edit{
+    box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.1);
+    margin-top: 10px;
+    background-color: #fff;
+    padding-bottom: 50px;
+}
+.form-title{
+    color: #511F52;
+    text-align: center;
+}
+.form-contact-page{
+    left: 10%;
+}
+.address-form {
+    left: 10%;
+}
+.btn-custom-contact-page{
+    background-color: #511F52;
+    border: 2px solid #511F52;
+    color: white;
+    font-weight: bold;
+}
+.btn-custom-contact-page:hover{
+    color: #511F52;
+    border: 2px solid #511F52;
+    background-color: white;
+}
+.input-back{
+    background-color: #ddbedc;
+    color: #fff;
+}
+.contact-menu{
+    color: #646464;
+}
+.contact-menu:hover{
+    color: #511F52;
+}
+.project-page{
+    margin-top: 100px !important;
+}
+.left button, .right button{
+    padding: 15px;
+    width: 200px !important;
+    text-align: center;
+    margin-left: 50px;
+    
+}
+.custom-modal{
+    background-color: #F4EEF4;
+}
+.skill-page{
+    margin-top: 100px !important;
+}
+.skill-list-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.education-page{
+    margin-top: 100px !important;
+}
+.contact-page{
+    margin-top: 100px !important;
+}
+.contact-send-form{
+    width: 200px !important;
+    
+
+}
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 600px) and (min-width: 400px){
+    .skill-list{
+        display: flex;
+        flex-direction: row;
+        flex: 1 1 10px !important;
+        flex-wrap:wrap;
+    }
+    .circular-progress{
+        margin-left: 10px;
+    }
+    .my-form{
+        padding-right: 60px;
+       
+    }
+    .line-separat{
+        border-bottom: 3px dotted #511F52;
+        border-right: 0px !important;
+    }
+  } 
+
